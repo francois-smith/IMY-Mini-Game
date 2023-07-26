@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Game%20Windows/WindowStyles.uss?fileID=7433441132597879392&amp;guid=f739e203aa749e840a98c3e7347d7fff&amp;type=3#WindowStyles" />
+    <ui:VisualElement name="HUD-window" style="visibility: visible; display: flex; flex-grow: 1; align-items: stretch;">
+        <ui:VisualElement name="HUD-content" style="flex-grow: 1; align-items: stretch; justify-content: flex-end; display: none;">
+            <ui:VisualElement name="active-hearts" style="left: 40px; position: absolute; right: auto; bottom: auto; visibility: visible; display: flex; top: 40px; flex-grow: 0; flex-direction: row;">
+                <ui:VisualElement name="heart-1" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Sprites/Sprites/UI/heart.png?fileID=21300000&amp;guid=e6017ea4ed245f543aec3f70ec924846&amp;type=3#heart&apos;); -unity-background-scale-mode: scale-to-fit; width: 90px; height: 90px; margin-left: 0; margin-right: 5px;" />
+                <ui:VisualElement name="heart-2" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Sprites/Sprites/UI/heart.png?fileID=21300000&amp;guid=e6017ea4ed245f543aec3f70ec924846&amp;type=3#heart&apos;); -unity-background-scale-mode: scale-to-fit; width: 90px; height: 90px; margin-left: 0; margin-right: 5px;" />
+                <ui:VisualElement name="heart-3" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Sprites/Sprites/UI/heart.png?fileID=21300000&amp;guid=e6017ea4ed245f543aec3f70ec924846&amp;type=3#heart&apos;); -unity-background-scale-mode: scale-to-fit; width: 90px; height: 90px; margin-left: 0; margin-right: 15px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="score-container" style="left: initial; position: absolute; right: 40px; bottom: auto; visibility: visible; display: flex; top: 25px; flex-grow: 0; flex-direction: row;">
+                <ui:Label tabindex="-1" text="2458" display-tooltip-when-elided="true" name="score" style="-unity-font: url(&apos;project://database/Assets/Sprites/Fonts/PixelOperator.ttf?fileID=12800000&amp;guid=33cef30adfbef2144ba608f4d99caaee&amp;type=3#PixelOperator&apos;); -unity-font-definition: url(&apos;project://database/Assets/Sprites/Fonts/PixelOperator%20SDF%201.asset?fileID=11400000&amp;guid=82d8c1eece689f944b496ec29994bc4e&amp;type=2#PixelOperator SDF 1&apos;); color: rgb(255, 255, 255); font-size: 85px; -unity-text-outline-color: rgba(0, 0, 0, 0); -unity-text-outline-width: 0; text-shadow: 3px 3px 5px rgb(0, 0, 0); display: flex;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
